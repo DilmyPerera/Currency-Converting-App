@@ -23,5 +23,27 @@ export default function Home() {
       setUSD(null);
     }
   };
-  return <View></View>;
+  return (
+    <PaperProvider>
+      <SafeAreaView style={styles.container}>
+        <Appbar.Header>
+          <Appbar.Content title="Currency Converter" />
+        </Appbar.Header>
+        <View style={styles.contentContainer}>
+          <Text style={styles.label}>Enter amount in LKR:</Text>
+          <TextInput
+            style={styles.input}
+            keyboardType="numeric"
+            value={lkr}
+            onChangeText={setLKR}
+            placeholder="Enter LKR"
+          />
+          <Button title="Convert to USD" onPress={convertToUSD} />
+          {usd !== null && (
+            <Text style={styles.resultText}>Equivalent in USD: ${usd}</Text>
+          )}
+        </View>
+      </SafeAreaView>
+    </PaperProvider>
+  );
 }
