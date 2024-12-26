@@ -82,7 +82,8 @@ Follow these steps to set up and run the project locally:
 
 ## OutPut ✨
 
-![Alt Text]()
+![Alt Text](output.jpg)
+![Alt Text](output2.jpg)
 
 
 ---
