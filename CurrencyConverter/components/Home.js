@@ -47,3 +47,33 @@ export default function Home() {
     </PaperProvider>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#f5f5f5",
+  },
+  contentContainer: {
+    flex: 1,
+    justifyContent: "center",
+    padding: 20,
+  },
+  label: {
+    fontSize: 18,
+    marginBottom: 10,
+  },
+  input: {
+    height: 40,
+    borderColor: "gray",
+    borderWidth: 1,
+    borderRadius: 5,
+    marginBottom: 20,
+    paddingHorizontal: 10,
+    backgroundColor: "#fff",
+  },
+  resultText: {
+    marginTop: 20,
+    fontSize: 18,
+    fontWeight: "bold",
+  },
+});
