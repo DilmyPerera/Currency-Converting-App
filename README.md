@@ -83,10 +83,8 @@ Follow these steps to set up and run the project locally:
 
 ## OutPut ✨
 
-![Alt Text](output.jpg)
-<img src='./CurrencyConverter/assets/output.jpg' alt="App Screenshot" width="300" />
-
-![Alt Text](output2.jpg)
+<img src='./CurrencyConverter/assets/output.jpg' alt="App Screenshot" width="300" height="400"/>
+<img src='./CurrencyConverter/assets/output2.jpg' alt="App Screenshot" width="300" height="400"/>
 
 ---
 
