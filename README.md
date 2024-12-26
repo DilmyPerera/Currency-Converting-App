@@ -60,6 +60,7 @@ Follow these steps to set up and run the project locally:
 ## How to Run in Expo App 🎯
 
 1. Install the Expo Go app on your mobile device:
+
    - [iOS](https://apps.apple.com/app/expo-go/id982107779)
    - [Android](https://play.google.com/store/apps/details?id=host.exp.exponent)
 
@@ -83,12 +84,10 @@ Follow these steps to set up and run the project locally:
 ## OutPut ✨
 
 ![Alt Text](output.jpg)
-<img src="output.png" alt="App Screenshot" width="300" />
+<img src='./CurrencyConverter/assets/output.jpg' alt="App Screenshot" width="300" />
 
 ![Alt Text](output2.jpg)
-
 
 ---
 
 Enjoy converting currencies seamlessly! ✨
-
