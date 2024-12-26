@@ -15,7 +15,7 @@ export default function Home() {
 
   const exchangeRate = 0.0034;
 
-  const ConverToUSD = () => {
+  const ConvertToUSD = () => {
     const lkrValue = parseFloat(lkr);
     if (!isNaN(lkrValue)) {
       setUSD((lkrValue * exchangeRate).toFixed(2));
@@ -38,7 +38,7 @@ export default function Home() {
             onChangeText={setLKR}
             placeholder="Enter LKR"
           />
-          <Button title="Convert to USD" onPress={convertToUSD} />
+          <Button title="Convert to USD" onPress={ConvertToUSD} />
           {usd !== null && (
             <Text style={styles.resultText}>Equivalent in USD: ${usd}</Text>
           )}
