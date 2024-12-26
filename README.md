@@ -83,6 +83,8 @@ Follow these steps to set up and run the project locally:
 ## OutPut ✨
 
 ![Alt Text](output.jpg)
+<img src="output.png" alt="App Screenshot" width="300" />
+
 ![Alt Text](output2.jpg)
 
 
